@@ -1,6 +1,10 @@
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 const Products = () => {
+  // const navigate = useNavigate();
+  // navigate('/welcome');
+  // navigate('/welcome', {replace: true});
+  // navigate(-1); 1,2,-2
   return (
     <section>
       <h1>The Products Page</h1>
